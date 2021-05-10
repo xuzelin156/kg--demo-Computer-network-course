@@ -1,0 +1,1925 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ASK -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ASK"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ASKattribute -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ASKattribute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#first -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#first"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#hasBrother -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#hasBrother">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#hasPartof -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#hasPartof">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#is -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#is"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#next -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#next"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中文名称 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中文名称">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中有 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中有"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#主要特点 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#主要特点">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#任务 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#任务">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#优点 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#优点">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#优缺点 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#优缺点">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输单位 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输单位">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公式 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公式">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#名称 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#名称"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#含义 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#含义">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#定义 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#定义">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#所实现的硬件 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#所实现的硬件">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#是 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#是">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#缺点 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#缺点">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#first -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#first"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#is"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#next -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#next"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#前后继关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#前后继关系"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#参考 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#参考"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#因果关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#因果关系"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对立关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对立关系"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#继承关系 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#继承关系"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型"/>
+        <rdfs:label>OSI参考模型</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#T题库 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#T题库">
+        <名称>T题库</名称>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络组成"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络组成"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络组成"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构">
+        <rdfs:label>计算机网络体系结构</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分层结构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分层结构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+        <rdfs:label>计算机网络分层结构</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述"/>
+        <rdfs:label>计算机网络分类</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型">
+        <rdfs:label>计算机网络参考模型</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述"/>
+        <rdfs:label>计算机网络概念</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述">
+        <rdfs:label>计算机网络概述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述"/>
+        <rdfs:label>计算机网络的标准化工作</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概述"/>
+        <rdfs:label>计算机网络组成</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型"/>
+        <rdfs:label>五层参考模型</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络参考模型"/>
+        <rdfs:label>TCP/IP模型</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ICI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ICI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <中文名称>接口控制信息</中文名称>
+        <含义>第n层的接口控制信息，记作n-ICI。</含义>
+        <rdfs:label>ICI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PDU"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#SDU"/>
+        <中文名称>接口数据单元</中文名称>
+        <定义>第n层的服务数据单元(SDU)+第n层的接口控制信息(ICI)=第n层的接口数据单元,即n-SDU+n-ICI=n-IDU,表示的是在相邻层接口间传送的数据单元。</定义>
+        <定义>第n层的服务数据单元(SDU)+第n层的接口控制信息(ICI)=第n层的接口数据单元,即n-SDU+n-ICl=n-IDU,表示的是在相邻层接口间传送的数据单元。</定义>
+        <rdfs:label>IDU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IEEE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IEEE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ISO"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ITU"/>
+        <中文名称>美国电气和电子工程师协会</中文名称>
+        <rdfs:label>IEEE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ISO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ISO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IEEE"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ITU"/>
+        <中文名称>国际标准化组织</中文名称>
+        <rdfs:label>ISO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ITU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ITU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IEEE"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ISO"/>
+        <中文名称>国际电信联盟</中文名称>
+        <rdfs:label>ITU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PCI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PCI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <中文名称>协议控制信息</中文名称>
+        <含义>PCI</含义>
+        <含义>第n层的协议控制信息，记作n-PCI。</含义>
+        <rdfs:label>PCI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PDU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PDU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#SDU"/>
+        <中文名称>协议数据单元</中文名称>
+        <定义>第n层的服务数据单元(SDU)+第n层的协议控制信息(PCI)=第n层的协议数据单元即n-SDU+n-PCI=n-PDU，表示的是同等层对等实体间传送的数据单元。另外，n-PDU=(n-1)-SDU。例如，网络层的整个IP分组交到数据链路层，整个IP分组成为数据链路层的数据部分。</定义>
+        <定义>第n层的服务数据单元(SDU)+第n层的协议控制信息(PCI)=第n层的协议数据单元，即n-SDU+n-PCl=n-PDU,表示的是同等层对等实体间传送的数据单元。另外·n-PDU=(n-1)-SDU·例如,网络层的整个IP分组交到数据链路层，整个IP分组成为数据镞路层的数据部分。</定义>
+        <rdfs:label>PDU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#SDU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#SDU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PDU"/>
+        <中文名称>服务数据单元</中文名称>
+        <含义>第n层待传送和处理的服务数据单元，记作n-SDU</含义>
+        <含义>第n层待传送和处理的服务数据单元，记作“n-SDU”</含义>
+        <rdfs:label>SDU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#不可靠服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#不可靠服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#可靠服务"/>
+        <主要特点>网络不能保证数据正确、可靠地传送到目的地，网络只能是尽量正确、可靠，是一种“尽力而为”的服务。</主要特点>
+        <rdfs:label>不可靠服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#专用网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#专用网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公用网"/>
+        <rdfs:label>专用网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网"/>
+        <rdfs:label>个人局域网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中继器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中继器">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中继器是在物理层上工作的"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#题库的体"/>
+        <是>在物理层上工作的</是>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中继器是在物理层上工作的 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#中继器是在物理层上工作的">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#T题库"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#题库的体"/>
+        <is rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#T题库"/>
+        <名称>中继器是在物理层上工作的</名称>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#会话层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#会话层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <功能>在两个结点间建立、维护和释放面向用户的连接，并对会话进行管理和控制，保证会话数据可靠传送。</功能>
+        <rdfs:label>会话层</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延"/>
+        <公式>传播时延=信道长度（m）/电磁波在信道上的传播速度（m/s)</公式>
+        <定义>电磁波在信道中传播一定的距离所需要的时间。</定义>
+        <rdfs:label>传播时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广播式网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#点对点网络"/>
+        <rdfs:label>传输技术</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#专用网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公用网"/>
+        <rdfs:label>使用者</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信号 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信号"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信宿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信宿"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <含义>将分散在各地计算机中的数据资料进行集中处理或分级处理，如自动订票系统、银行金融系统、数据采集与处理系统等。</含义>
+        <rdfs:label>信息综合处理</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信源 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信源"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道利用率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道利用率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络利用率"/>
+        <含义>某信道有百分之几的时间是被利用的(有数据通过)。完全空闲的信道的利用率为零。</含义>
+        <rdfs:label>信道利用率</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#光纤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#光纤"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公用网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#公用网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#专用网"/>
+        <rdfs:label>公用网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <含义>当计算机网络中的某个计算机系统负荷过重时，可以将其处理的任务传送给网络中的其他计算机系统进行处理，利用空闲计算机资源提高整个系统的利用率。</含义>
+        <rdfs:label>分布式处理</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式计算机系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式计算机系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络"/>
+        <主要特点>整个系统中的各台计算机对用户都是透明的。用户通过输入命令可以运行程序，但用户并不知道具体是哪一台计算机在为其运行程序。操作系统为用户选择一台最合适的计算机来运行其程序，并将运行的结果传送到合适的地方。</主要特点>
+        <rdfs:label>分布式计算机系统</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网"/>
+        <rdfs:label>分布范围</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换网络"/>
+        <rdfs:label>分组交换网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道利用率"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络利用率"/>
+        <rdfs:label>利用率</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能特性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能特性"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#双绞线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#双绞线"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延"/>
+        <主要特点>对于某网络，发送时延并非固定不变，而是与发送的帧长成正比。</主要特点>
+        <公式>发送时延=数据帧长度（bit）/发送速率（bit/s)</公式>
+        <定义>主机或路由器发送数据帧所需要的时间，即从发送数据帧的第一位算起到该帧的最后一位发送完毕所需要的时间。因此，发送时延也称为传输时延。</定义>
+        <rdfs:label>发送时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#可靠服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#可靠服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#不可靠服务"/>
+        <主要特点>网络具有检错、纠错、应答机制，能保证数据正确、可靠地传送到目的地。</主要特点>
+        <rdfs:label>可靠服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同步 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同步">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语义"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语法"/>
+        <含义>规定了事件的执行顺序</含义>
+        <rdfs:label>同步</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同轴电缆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同轴电缆"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网"/>
+        <rdfs:label>域域网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延"/>
+        <定义>主机或路由器在接收到分组时进行处理所需要的时间。</定义>
+        <rdfs:label>处理时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#奈奎斯特定理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#奈奎斯特定理"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#实体 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#实体">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分层结构"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等实体"/>
+        <定义>任何可发送或接收信息的硬件或软件进程,通常是—个特点的软件模块。</定义>
+        <定义>任何可发送或接收信息的硬件或软件进程，通常是一个特点的软件模块。</定义>
+        <rdfs:label>实体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等实体 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等实体">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分层结构"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等层"/>
+        <继承关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#实体"/>
+        <含义>同一层上的实体</含义>
+        <rdfs:label>对等实体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分层结构"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#对等实体"/>
+        <含义>不同机器上的同一层</含义>
+        <rdfs:label>对等层</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#导向性传输介质 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#导向性传输介质"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网"/>
+        <rdfs:label>局域网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#带宽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#带宽"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广域网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#个人区域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#城域网"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#局域网"/>
+        <rdfs:label>广域网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广播式网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广播式网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#点对点网络"/>
+        <rdfs:label>广播式网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积"/>
+        <定义>从发送方发送数据开始，到发送方收到来自接收方的确认消息（接收方收到数据后便立即发送确认)，总共经历的时间。</定义>
+        <rdfs:label>往返时间</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延"/>
+        <公式>总时延=发送时延+传播时延+处理时延+排队时延</公式>
+        <rdfs:label>总时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络"/>
+        <rdfs:label>总线型网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换网络"/>
+        <rdfs:label>报文交换网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络"/>
+        <rdfs:label>拓扑结构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延"/>
+        <定义>分组在进入网络传输时，要经过许多路由器，但分组在进入路由器后要先在输入队列中排队等待处理，在路由器确定了转发接口后，还需要在输出队列中排队等待转发，这就产生了排队时延。</定义>
+        <rdfs:label>排队时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <含义>计算机网络中的各台计算机可以通过网络互为替代机。</含义>
+        <rdfs:label>最高可靠性</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换网络"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换网络"/>
+        <rdfs:label>数据交换技术</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据单元 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据单元">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#PDU"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#SDU"/>
+        <rdfs:label>数据单元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据报 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据报"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <含义>计算机网络最基本和最重要的功能，包括连接控制、传输控制、差错控制、流量控制、路由选择、多路复用等子功能。</含义>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#无应答服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#无应答服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#有应答服务"/>
+        <含义>接收方收到数据后不自动给出应答。</含义>
+        <rdfs:label>无应答服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传播时延"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#发送时延"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#处理时延"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总时延"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#排队时延"/>
+        <定义>数据从网络或链路的一端传送到另一端所需要的时间,有时也称为延迟或迟延。</定义>
+        <rdfs:label>时延</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延"/>
+        <公式>时延带宽积=传播时延x带宽</公式>
+        <定义>时延带宽积又称为以比特为单位的链路长度。</定义>
+        <rdfs:label>时延带宽积</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络"/>
+        <rdfs:label>星形网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#有应答服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#有应答服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#无应答服务"/>
+        <含义>接收方在收到数据后向发送方给出相应的应答。</含义>
+        <rdfs:label>有应答服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络体系结构"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#透明"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#机械特性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#机械特性"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#核心部分 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#核心部分">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#边缘部分"/>
+        <含义>由大量的网络和连接这些网络的路由器组成，它为边缘部分提供连通性和交换服务。</含义>
+        <rdfs:label>核心部分</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#波特 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#波特"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#点对点网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#点对点网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#广播式网络"/>
+        <rdfs:label>点对点网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#题库的体"/>
+        <中有>中继器在工作</中有>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层接口特性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层接口特性"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理层设备"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络"/>
+        <rdfs:label>环形网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电气特性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电气特性"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#电路交换网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分组交换网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#报文交换网络"/>
+        <rdfs:label>电路交换网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#码元 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#码元"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#硬件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#硬件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#软件"/>
+        <含义>由主机、通信处理机（或称为前端处理器)、通信线路（包括有线线路和无线线路等）和交换设备（交换机等连接设备）组成。</含义>
+        <rdfs:label>硬件</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#组织 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#组织">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IEEE"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ISO"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ITU"/>
+        <rdfs:label>组织</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网状形网络">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#总线型网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#星形网络"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#环形网络"/>
+        <rdfs:label>网状形网络</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络利用率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络利用率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信道利用率"/>
+        <含义>全网络的信道利用率的加权平均值。但是，不是信道利用率与网络利用率越高越好，利用率越高，会导致数据在路由器中转发时延过长。</含义>
+        <rdfs:label>网络利用率</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#5层参考模型"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络接口层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络接口层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#TCP/IP模型"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层"/>
+        <rdfs:label>网络接口层</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#自治计算机 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#自治计算机">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念"/>
+        <定义>能够进行自我管理、配置和维护的计算机，也就是现在的计算机;而像以前的终端（只有显示器，仅仅显示数据)，则不能称为自治计算机。</定义>
+        <rdfs:label>自治计算机</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#虚电路 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#虚电路"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#表示层 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#表示层">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#OSI模型"/>
+        <功能>表示层负责处理在两个内部数据表示结构不同的通信系统间交换信息的表示格式，为数据加密和解密以及为提高传输效率提供必需的数据压缩及解压等功能。</功能>
+        <rdfs:label>表示层</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#规程特性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#规程特性"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式计算机系统"/>
+        <主要特点>用户必须首先在欲运行程序的计算机上进行登录;然后按照计算机的地址,将程序通过计算机网络传送到该计算机上去运行;最后根据用户命令将结果传送到指定的计算机。</主要特点>
+        <rdfs:label>计算机网络</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类标准 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类标准">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络分类"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输技术"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#使用者"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布范围"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#拓扑结构"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据交换技术"/>
+        <rdfs:label>计算机网络分类标准</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络广义观点 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络广义观点">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念"/>
+        <定义>计算机网络是能实现远程信息处理的系统或进一步能达到资源共享的系统。</定义>
+        <rdfs:label>计算机网络广义观点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络用户透明性观点 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络用户透明性观点">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念"/>
+        <定义>计算机网络是一个能为用户自动管理资源的网络操作系统，它能够调用用户所需要的资源，整个网络像一个大的计算机系统一样对用户透明。</定义>
+        <rdfs:label>计算机网络用户透明性观点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络简洁概念 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络简洁概念">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念"/>
+        <定义>计算机网络就是一些互联的、自治的计算机系统的集合。</定义>
+        <rdfs:label>计算机网络简洁概念</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络资源共享观点 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络资源共享观点">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络概念"/>
+        <定义>计算机网络是以能够相互共享资源的方式互联起来的、自治的计算机系统的集合。</定义>
+        <rdfs:label>计算机网络资源共享观点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络（第7版）-谢希仁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络（第7版）-谢希仁">
+        <rdfs:label>计算机网络（第7版）-谢希仁</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语义 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语义">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同步"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语法"/>
+        <定义>对构成协议元素的含义的解释，即“讲什么”</定义>
+        <rdfs:label>语义</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语法 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语法">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#协议"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#同步"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#语义"/>
+        <定义>数据与控制信息的结构或格式，即“怎么讲”</定义>
+        <rdfs:label>语法</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <含义>将工作任务均衡地分配给计算机网络中的各台计算机。</含义>
+        <rdfs:label>负载均衡</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+        <含义>包括数据资源、软件资源以及硬件资源。</含义>
+        <rdfs:label>资源共享</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源子网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源子网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#通信子网"/>
+        <含义>由主机、终端以及各种软件资源、信息资源组成，负责全网的数据处理业务，向网络用户提供各种网络资源与服务。</含义>
+        <rdfs:label>资源子网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#软件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#软件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#硬件"/>
+        <含义>主要包括实现资源共享的软件和方便用户使用的各种工具软件（如QQ)。</含义>
+        <rdfs:label>软件</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#边缘部分 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#边缘部分">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#核心部分"/>
+        <含义>由所有连接在互联网上，供用户直接使用的主机组成，用来进行通信和资源共享。</含义>
+        <rdfs:label>边缘部分</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#透明 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#透明">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <因果关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <主要特点>用户只需要清楚手机上的每个按钮具有什么样的功能，尽管使用其功能即可，至于这个功能内部是怎么实现的，用户并不需要知道，这就是透明。</主要特点>
+        <rdfs:label>透明</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#通信子网 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#通信子网">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源子网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层"/>
+        <含义>由各种传输介质、通信设备和相应的网络协议组成，为网络提供数据传输、交换和控制能力，实现联网计算机之间的数据通信。</含义>
+        <rdfs:label>通信子网</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#速率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#速率"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#集线器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#集线器"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#非导向性传输介质 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#非导向性传输介质"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向无连接的服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向无连接的服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向连接的服务"/>
+        <主要特点>通信双方不需要事先建立一条通信线路，而是把每个带有目的地址的包(报文分组）传送到线路上，由系统选定路线进行传输。IP和 UDP就是两种无连接服务的协议，邮政系统是一个无连接的模式。</主要特点>
+        <优点>信息回复确认（每收到信息就发送一个回复，告诉对方已经收到此信息，如果收到的信息是错误的，告诉对方重新发送该信息）</优点>
+        <优点>可靠信息流(只要被接收的都是正确的)</优点>
+        <缺点>占用通信信道</缺点>
+        <rdfs:label>面向无连接的服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向连接的服务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向连接的服务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务"/>
+        <对立关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向无连接的服务"/>
+        <主要特点>当通信双方通信时，要事先建立一条通信线路，该线路包括建立连接、使用连接和释放连接3个过程。TCP就是一种面向连接服务的协议，电话系统是一个面向连接的模式。</主要特点>
+        <优点>不占用通信信道</优点>
+        <缺点>信息无回复确认(收到信息直接收下,不告诉对方已经收到)</缺点>
+        <缺点>信息流可能丢失（在传输的过程中，信息可能丢失，对方可能收不到）</缺点>
+        <rdfs:label>面向连接的服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#题库的体 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#题库的体">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#T题库"/>
+        <中有>1+1=2</中有>
+        <中有>中继器是在物理层上工作的</中有>
+        <名称>题库的题</名称>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#香农定理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#香农定理"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#1.互联网草案 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#1.互联网草案">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2.建议标准（RFC文档）"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#3.草案标准"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#4.互联网标准"/>
+        <rdfs:label>1.互联网草案</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2.建议标准（RFC文档） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2.建议标准（RFC文档）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#1.互联网草案"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#3.草案标准"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#4.互联网标准"/>
+        <rdfs:label>2.建议标准（RFC文档）</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2019版计算机网络高分笔记（第7版）-周伟 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2019版计算机网络高分笔记（第7版）-周伟">
+        <rdfs:label>2019版计算机网络高分笔记（第7版）-周伟</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#3.草案标准 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#3.草案标准">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#1.互联网草案"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2.建议标准（RFC文档）"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#4.互联网标准"/>
+        <rdfs:label>3.草案标准</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#4.互联网标准 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#4.互联网标准">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络的标准化工作"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#1.互联网草案"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#2.建议标准（RFC文档）"/>
+        <前后继关系 rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#3.草案标准"/>
+        <rdfs:label>4.互联网标准</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#传输层">
+        <rdfs:label>传输层</rdfs:label>
+        <传输单位>报文段(TCP)或用户数据报(UDP)</传输单位>
+        <任务>负责主机中两个进程之间的通信</任务>
+        <功能>为端到端连接提供流量控制、差错控制、服务质量等管理服务</功能>
+        <功能>为端到端连接提供可靠的传输服务</功能>
+        <协议>TCP、UDP</协议>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#功能组成">
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源子网"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#通信子网"/>
+        <rdfs:label>功能组成</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#工作方式组成">
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#边缘部分"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#核心部分"/>
+        <rdfs:label>工作方式组成</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#应用层">
+        <rdfs:label>应用层</rdfs:label>
+        <功能>电子邮件服务</功能>
+        <协议>FTP、SMTP、POP3、HTTP</协议>
+        <功能>访问和管理</功能>
+        <任务>提供系统与用户的接口</任务>
+        <功能>文件传输</功能>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#接口">
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#ICI"/>
+        <定义>接口又称为服务访问点·从物理层开始,每一层都向上层提供服务访问点,即没有接口就不能提供服务。</定义>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#IDU"/>
+        <rdfs:label>接口</rdfs:label>
+        <定义>接口又称为服务访问点，从物理层开始，每一层都向上层提供服务访问点，即没有接口就不能提供服务。</定义>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据链路层">
+        <功能>差错检测</功能>
+        <功能>链路连接的建立、拆除、分离</功能>
+        <rdfs:label>物理链路层</rdfs:label>
+        <功能>帧定界和帧同步</功能>
+        <传输单位>帧</传输单位>
+        <任务>将网络层传下来的IP数据报组装成帧</任务>
+        <协议>PPP、 HDLC、ARQ</协议>
+        <所实现的硬件>交换机、网桥</所实现的硬件>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#服务">
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向无连接的服务"/>
+        <主要特点>上一层只能通过相邻层的接口使用下一层的服务，而不能调用其他层的服务,即下一层提供服务的实现细节对上一层透明。</主要特点>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#面向连接的服务"/>
+        <主要特点>第n层的实体不仅要使用第n-1层的服务·还要向第n+1层提供本层的那务,该服务是第n层及其以下各层所提供服务的总和。最高层向用户提供服务。</主要特点>
+        <主要特点>第n层的实体不仅要使用第n-1层的服务，还要向第n+1层提供本层的服务，该服务是第n层及其以下各层所提供服务的总和。最高层向用户提供服务。</主要特点>
+        <rdfs:label>服务</rdfs:label>
+        <主要特点>上一层只能通过相郯层的接口使用下一层的服务，而不能调用其他层的服务，即下一层提供服务的实现细节对上一层透明。</主要特点>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#无应答服务"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#可靠服务"/>
+        <定义>服务指下层为相邻上层提供的功能调用。协议是水平的，而服务则是垂直的，即下层向上层通过接口提供服务。</定义>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#不可靠服务"/>
+        <hasBrother rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#有应答服务"/>
+        <定义>服务指下层为相邻上层提供的功能调用。协议是水平的·而服务则是垂直的，即下层向上层通过接口提供服务。</定义>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#物理组成">
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#硬件"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#软件"/>
+        <rdfs:label>物理组成</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#网络层">
+        <功能>为传输层提供服务</功能>
+        <功能>路由选择</功能>
+        <rdfs:label>网络层</rdfs:label>
+        <功能>拥塞控制</功能>
+        <协议>ICMP、 ARP、RARP、 IP、IGMP</协议>
+        <任务>将传输层传下来的报文段封装成分组</任务>
+        <传输单位>数据报</传输单位>
+        <所实现的硬件>路由器</所实现的硬件>
+        <功能>组包和拆包</功能>
+        <任务>选择适当的路由，使传输层传下来的分组能够交付到目的主机</任务>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络功能">
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#资源共享"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#信息综合处理"/>
+        <含义>为了满足人们的学习、工作和生活需要，计算机网络还有其他一些功能，如远程教育、电子化办公与服务、娱乐等。</含义>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#分布式处理"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#提高可靠性"/>
+        <rdfs:label>计算机网络功能</rdfs:label>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#数据通信"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#负载均衡"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#计算机网络性能指标">
+        <rdfs:label>计算机网络性能指标</rdfs:label>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#利用率"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延带宽积"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#往返时间"/>
+        <hasPartof rdf:resource="http://www.semanticweb.org/yan/ontologies/2020/9/untitled-ontology-6#时延"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
